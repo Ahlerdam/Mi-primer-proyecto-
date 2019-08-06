@@ -22,19 +22,19 @@ function Operacion() {
     {
         case Operaciones.Suma:
         var resultSuma = parseInt(primerValor.value)+ parseInt(SegundoValor.value);
-        return alert (resultSuma);
+        return alert ("Tus resultado es: " + resultSuma);
         break;
         case Operaciones.Resta:
         var resultResta = primerValor.value - SegundoValor.value;
-        return alert(resultResta);
+        return alert("Tus resultado es: " + resultResta);
         break;
         case Operaciones.Multiplicacion:
         var resultMultiplicar = primerValor.value * SegundoValor.value;
-        return alert(resultMultiplicar);
+        return alert("Tus resultado es: " + resultMultiplicar);
         break;
         case Operaciones.Dividir:
         var resultDividir = primerValor.value / SegundoValor.value;
-        return alert(resultDividir);
+        return alert("Tus resultado es: " + resultDividir);
         break;
     }
     console.log(primerValor.value, SegundoValor.value);
