@@ -1,6 +1,6 @@
 body 
 {
-  background: linear-gradient(to right, rgb(142,45,226, .6) ,rgb(0, 4, 255, .6)), url("../img/img01.jpg");
+  background: linear-gradient(to right, rgba(137, 111, 160, 0.5) ,rgb(0, 4, 255, .5)), url("../img/img01.jpg");
   background-size: cover;
   background-position: center;
   font-family: 'Raleway', sans-serif;
@@ -9,3 +9,4 @@ body
 .logo {
 height: 50%;
 }
+
